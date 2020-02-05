@@ -22,7 +22,7 @@ $ composer require wirecore/dynadot-php
 use Wirecore\Dynadot\DynadotApi;
 
 $test = new DynadotApi("ApiKey");
-$result = $test->search(array('show_price' => 1,'domain0' => 'random-software.xyz'));
+$result = $test->search(array('show_price' => 1,'domain0' => 'google.de'));
 ```
 
 ## Change log
