@@ -194,6 +194,13 @@ class DynadotApi {
 		return $result;	
 	}
 	
+	// get_transfer_auth_code
+	public function get_transfer_auth_code($additionalParams = array()){
+		$url = $this->buildUrl("get_transfer_auth_code",$additionalParams);
+		$result = $this->run($url);
+		return $result;	
+	}
+	
 	// add_ns
 	public function add_ns($additionalParams = array()){
 		$url = $this->buildUrl("add_ns",$additionalParams);
