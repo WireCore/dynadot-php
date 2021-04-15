@@ -40,6 +40,13 @@ class DynadotApi {
 		return $result;	
 	}
 	
+	// transfer
+	public function transfer($additionalParams = array()){
+		$url = $this->buildUrl("transfer",$additionalParams);
+		$result = $this->run($url);
+		return $result;	
+	}
+	
 	// domain_info
 	public function domain_info($additionalParams = array()){
 		$url = $this->buildUrl("domain_info",$additionalParams);
