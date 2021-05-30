@@ -1,7 +1,5 @@
 <?php
 
-namespace Wirecore\Dynadot;
-
 class DynadotApi {
     
 	protected $token;
